@@ -1,0 +1,26 @@
+:root {
+  --paper: #f7f7f5;
+  --ink: #1c2430;
+  --soft: #5f6b7a;
+  --accent: #2f4a73;
+  --line: #dcdfe3;
+}
+
+@import "tailwindcss";
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #14181f;
+    --ink: #e9ecf0;
+    --soft: #9aa5b3;
+    --accent: #8fb0e6;
+    --line: #2a313c;
+  }
+}
+
+/* Foco visible al navegar con el teclado */
+a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}

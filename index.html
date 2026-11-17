@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth scroll-pt-24 motion-reduce:scroll-auto">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jose Daniel Rodelo Naizzir · Desarrollador web</title>
+<meta name="description" content="Portafolio de Jose Daniel Rodelo Naizzir, desarrollador web. Proyectos en HTML, CSS, Tailwind, Python y C++.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script src="js/tailwind-config.js"></script>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="bg-paper font-body text-ink antialiased selection:bg-accent selection:text-paper">
+
+<a href="#proyectos" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-20 focus:rounded-md focus:bg-ink focus:px-4 focus:py-2 focus:text-paper">Saltar al contenido</a>
+
+<div class="mx-auto max-w-3xl px-6">
+
+  <!-- Menú fijo con efecto vidrio -->
+  <nav class="sticky top-0 z-10 flex items-center justify-between bg-[color-mix(in_srgb,var(--paper)_85%,transparent)] py-5 text-sm font-medium backdrop-blur-md">
+    <a href="#inicio" class="font-display text-base font-bold">
+      <span class="hidden sm:inline">Jose Daniel Rodelo</span>
+      <span class="sm:hidden">JD</span>
+    </a>
+    <div class="flex gap-5 text-soft sm:gap-6">
+      <a href="#proyectos" class="transition-colors hover:text-ink">Proyectos</a>
+      <a href="#sobre-mi" class="transition-colors hover:text-ink">Sobre mí</a>
+      <a href="#habilidades" class="transition-colors hover:text-ink">Habilidades</a>
+      <a href="#contacto" class="transition-colors hover:text-ink">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- Presentación -->
+  <header id="inicio" class="border-b border-line py-20 sm:py-28">
+    <h1 class="font-display text-4xl font-bold leading-tight tracking-tight text-balance sm:text-6xl">Jose Daniel Rodelo Naizzir</h1>
+    <p class="mt-4 font-display text-xl text-soft sm:text-2xl">Desarrollador web</p>
+    <p class="mt-8 max-w-lg text-lg leading-relaxed text-soft">Construyo páginas web con HTML, CSS y Tailwind, y programo con Python y C++. Aprendo creando proyectos y publicándolos en GitHub.</p>
+    <div class="mt-10 flex flex-wrap gap-4">
+      <a href="#proyectos" class="rounded-md bg-ink px-6 py-3 font-semibold text-paper transition hover:opacity-90">Ver mis proyectos</a>
+      <a href="https://github.com/DxnielAZ" target="_blank" rel="noopener" class="rounded-md border-2 border-ink px-6 py-3 font-semibold transition hover:bg-ink hover:text-paper">GitHub</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Proyectos -->
+    <section id="proyectos" class="border-b border-line py-14">
+      <h2 class="font-display text-2xl font-bold tracking-tight">Proyectos</h2>
+      <div class="mt-6 grid gap-4 sm:grid-cols-2">
+
+        <a href="https://github.com/DxnielAZ/Rueda-Libre" target="_blank" rel="noopener"
+           class="group flex flex-col gap-1 rounded-lg border border-line p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-accent hover:shadow-md motion-reduce:transition-none motion-reduce:hover:transform-none">
+          <h3 class="font-display text-xl font-bold transition-colors group-hover:text-accent">Rueda Libre</h3>
+          <p class="text-soft">Proyecto personal con su código fuente disponible en GitHub. Entra al repositorio para ver los archivos, las tecnologías usadas y cómo está organizado.</p>
+          <p class="mt-3 break-words text-sm font-medium text-accent underline underline-offset-4">github.com/DxnielAZ/Rueda-Libre</p>
+        </a>
+
+        <a href="https://github.com/KevinGrajales/Monster-s_Cinema" target="_blank" rel="noopener"
+           class="group flex flex-col gap-1 rounded-lg border border-line p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-accent hover:shadow-md motion-reduce:transition-none motion-reduce:hover:transform-none">
+          <h3 class="font-display text-xl font-bold transition-colors group-hover:text-accent">Monster’s Cinema</h3>
+          <p class="text-soft">Sitio web de un autocine con estilo retro. Tiene varias páginas, un menú de navegación y está construido con HTML y Tailwind CSS.</p>
+          <p class="mt-3 break-words text-sm font-medium text-accent underline underline-offset-4">github.com/KevinGrajales/Monster-s_Cinema</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="border-b border-line py-14">
+      <h2 class="font-display text-2xl font-bold tracking-tight">Sobre mí</h2>
+      <p class="mt-6 max-w-xl text-lg leading-relaxed text-soft">
+        Soy desarrollador web y me gusta construir cosas que se puedan ver y usar. Trabajo con HTML y CSS para crear páginas, y con Python y C++ para practicar la lógica de programación. Cada proyecto que hago me ayuda a escribir código más ordenado y a entender mejor cómo funciona.
+      </p>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="border-b border-line py-14">
+      <h2 class="font-display text-2xl font-bold tracking-tight">Habilidades</h2>
+      <p class="mt-6 max-w-xl text-soft">Los lenguajes y herramientas con los que trabajo en mis proyectos.</p>
+      <ul class="mt-6 flex flex-wrap gap-3 text-sm font-medium">
+        <li class="rounded-md border border-line px-4 py-2 transition-colors hover:border-accent">HTML</li>
+        <li class="rounded-md border border-line px-4 py-2 transition-colors hover:border-accent">CSS</li>
+        <li class="rounded-md border border-line px-4 py-2 transition-colors hover:border-accent">Tailwind CSS</li>
+        <li class="rounded-md border border-line px-4 py-2 transition-colors hover:border-accent">Python</li>
+        <li class="rounded-md border border-line px-4 py-2 transition-colors hover:border-accent">C++</li>
+      </ul>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-14 pb-24">
+      <h2 class="font-display text-2xl font-bold tracking-tight">Contacto</h2>
+      <p class="mt-6 max-w-md text-lg leading-relaxed text-soft">Si quieres ver mi código o ponerte en contacto conmigo, puedes hacerlo desde mi perfil de GitHub.</p>
+      <a href="https://github.com/DxnielAZ" target="_blank" rel="noopener" class="mt-6 inline-block rounded-md border-2 border-ink px-6 py-3 font-semibold transition hover:bg-ink hover:text-paper">Mi perfil de GitHub</a>
+    </section>
+  </main>
+
+  <footer class="flex items-center justify-between border-t border-line py-8 text-sm text-soft">
+    <p>© 2026 Jose Daniel Rodelo Naizzir</p>
+    <a href="#inicio" class="transition-colors hover:text-ink">Volver arriba</a>
+  </footer>
+
+</div>
+</body>
+</html>
